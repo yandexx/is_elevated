@@ -1,4 +1,5 @@
-![docs.rs](https://docs.rs/is_elevated/badge.svg)
+[![Crates.io](https://img.shields.io/crates/v/is_elevated.svg)](https://crates.io/crates/is_elevated)
+[![docs.rs](https://docs.rs/is_elevated/badge.svg)](https://docs.rs/is_elevated/)
 
 **is_elevated** is a simple Windows-only crate that lets you determine
 whether the current process is running as elevated (also known “as
