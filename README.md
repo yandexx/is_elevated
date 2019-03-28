@@ -8,8 +8,8 @@ or lower).
 use is_elevated::is_elevated;
 
 if !is_elevated() {
-	println!(
-		"Warning: the program isn’t running as elevated; some functionality may not work."
-	);
+    println!(
+        "Warning: the program isn’t running as elevated; some functionality may not work."
+    );
 }
 ```
