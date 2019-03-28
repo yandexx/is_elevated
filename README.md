@@ -1,0 +1,15 @@
+**is_elevated** is a simple Windows-only crate that lets you determine
+whether the current process is running as elevated (also known “as
+administrator,” or integrity level High), or not (integrity level Medium
+or lower).
+
+## Example
+```rust
+use is_elevated::is_elevated;
+
+if !is_elevated() {
+	println!(
+		"Warning: the program isn’t running as elevated; some functionality may not work."
+	);
+}
+```
