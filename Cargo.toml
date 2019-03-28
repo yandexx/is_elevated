@@ -3,7 +3,7 @@ name = "is_elevated"
 version = "0.1.0" # remember to update html_root_url
 authors = ["Vsevolod Zubarev <yandexx@gmail.com>"]
 description = "Determine whether your Windows process is running elevated or not."
-keywords = ["Windows", "Windows API", "elevation", "UAC"]
+keywords = ["windows", "windowsapi", "windowssdk", "elevation", "uac"]
 license = "MIT"
 repository = "https://github.com/yandexx/is_elevated"
 
