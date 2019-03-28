@@ -8,15 +8,15 @@
 //! use is_elevated::is_elevated;
 //!
 //! if !is_elevated() {
-//!		println!(
-//!			"Warning: the program isn’t running as elevated; some functionality may not work."
-//!		);
+//!     println!(
+//!         "Warning: the program isn’t running as elevated; some functionality may not work."
+//!     );
 //! }
 //! ```
 //!
 //!
 #![cfg(windows)]
-#![doc(html_root_url = "https://docs.rs/is_elevated/0.1.1")]
+#![doc(html_root_url = "https://docs.rs/is_elevated/0.1.2")]
 #![deny(missing_docs)]
 
 extern crate winapi;
@@ -37,9 +37,9 @@ use winapi::um::winnt::TOKEN_QUERY;
 /// use is_elevated::is_elevated;
 ///
 /// if !is_elevated() {
-///		println!(
-///			"Warning: the program isn’t running as elevated; some functionality may not work."
-///		);
+///     println!(
+///         "Warning: the program isn’t running as elevated; some functionality may not work."
+///     );
 /// }
 /// ```
 pub fn is_elevated() -> bool {

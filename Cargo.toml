@@ -1,6 +1,6 @@
 [package]
 name = "is_elevated"
-version = "0.1.1" # remember to update html_root_url
+version = "0.1.2" # remember to update html_root_url
 authors = ["Vsevolod Zubarev <yandexx@gmail.com>"]
 description = "Determine whether your Windows process is running elevated or not."
 keywords = ["windows", "windowsapi", "windowssdk", "elevation", "uac"]
