@@ -1,3 +1,5 @@
+![docs.rs](https://docs.rs/is_elevated/badge.svg)
+
 **is_elevated** is a simple Windows-only crate that lets you determine
 whether the current process is running as elevated (also known “as
 administrator,” or integrity level High), or not (integrity level Medium
