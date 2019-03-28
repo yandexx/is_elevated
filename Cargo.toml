@@ -5,6 +5,7 @@ authors = ["Vsevolod Zubarev <yandexx@gmail.com>"]
 description = "Determine whether your Windows process is running elevated or not."
 keywords = ["windows", "windowsapi", "windowssdk", "elevation", "uac"]
 license = "MIT"
+readme = "README.md"
 repository = "https://github.com/yandexx/is_elevated"
 
 [dependencies]
