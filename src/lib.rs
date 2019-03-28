@@ -15,7 +15,8 @@
 //! ```
 //!
 //!
-
+#![cfg(windows)]
+#![doc(html_root_url = "https://docs.rs/is_elevated/0.1.0")]
 #![deny(missing_docs)]
 
 extern crate winapi;

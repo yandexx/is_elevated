@@ -1,6 +1,6 @@
 [package]
 name = "is_elevated"
-version = "0.1.0"
+version = "0.1.0" # remember to update html_root_url
 authors = ["Vsevolod Zubarev <yandexx@gmail.com>"]
 description = "Determine whether your Windows process is running elevated or not."
 keywords = ["Windows", "Windows API", "elevation", "UAC"]
@@ -9,3 +9,6 @@ repository = "https://github.com/yandexx/is_elevated"
 
 [dependencies]
 winapi = { version = "0.3.6", features = ["securitybaseapi", "processthreadsapi"] }
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
